@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA - MEDIANA - MODA</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="container">
+    <a href="/index.html">Inicio</a>
+    <div class="medidasdetendenciacentral">
+        <h1>Medidas de tendencia central</h1>
+        <p class="definicion-md-tn-ctrl">
+            Son valores que generalmente se agrupan los datos de un conjunto. Estos son la media, la mediana y la mayor.
+        </p>
+    </div>
+
+    <div class="tema">
+        <h2 class="title-tema">Mediana</h2>
+        <p class="definicion"><b>Definicion:</b> : Es el valor que ocupa el lugar central de todos los datos cuando están ordenados.</p>
+
+        <p><b>Para datos no agrupados:</b></p>
+        <div class="paranoagrupados">
+            <div class="formula">
+                <span>Fórmula:</span>
+                <img src="../images/formula-mediana-no-agrupada.png" alt="">
+            </div>
+            <div class="ejemplo">
+                <span>Ejemplo:</span>
+                <img src="../images/ejemplo-mediana-no-agrupado.png" alt="">
+            </div>
+        </div>
+        <p><b>Para datos agrupados:</b></p>
+        <div class="agrupados" style="flex-direction: column;">
+            <div class="formula">
+                <span>Fórmula:</span>
+                <img src="../images/mediana-formula-agrupado-recort.png" alt="">
+            </div>
+
+            <div class="ejemplo">
+                <span>Ejemplo:</span>
+                <br>
+                Teniendoesta tabla<br><br>
+                <img src="../images/tablaestadist.png" alt="">
+                <br>
+                el numero total de los datos de la frecuencia absoluta, o sea 30, lo dividimos en 2 y se busca en la frecuencia acumulativa. En el caso de que llegaramos a encontrarlo (aunque casi nunca), la mediana va a ser igual a el limite superior.
+                <img src="../images/ps1medianaargrupado.png" alt="">
+                <br>
+                Como el 15 no lo encontramos en la tabla, buscamos el siguiente, o sea el 17. <br><br>
+                <img src="../images/ps2mediana-agrpado.png" alt="">
+                <br>
+                En la fórmula, el Fi-1 significa anterior, en este caso el anterior sería el 9.
+                <br>    
+                Si fuera Fi+1, seria el de despues.
+                <br>
+                La a en la formula es el : Limite superior(Ls) - Limite inferior(Li); en este caso:
+                a = 4.
+                <br><br>
+                Completamos la fórmula. Asi queda:
+                <img src="../images/formulacompletada.png" alt="">
+
+                <br>
+                <br>
+                Resolvemos y asi queda:
+                <img src="../images/resultadomediana.png" alt="">
+                <br>
+                Nos da como resultado 60.
+                <br>
+                Para saber sivamos bien, com resultado tiene que dar un numero entre el Limite superior e inferior.
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+</body>
+</html>

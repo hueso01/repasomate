@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMO RELLENAR UNA TABLA</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <br>
+    <a href="/index.html">Inicio</a>
+    <div class="container">
+        <div class="tema">
+            <h2 style="text-align: center;font-size: 30px;" >Como hacer o rellenar una tabla estadística</h2>
+            <div class="marcadeclase">
+                <h3>Marca de clase</h3>
+                <span>Simbolo : xi o Mc o x</span>
+                <br>
+                Se suman los valores del conjunto y se dividen en el total de valores.
+                <br>
+                Por ejemplo: 
+                <br>
+                El 20 es el Li (limite inferior) - el 30 es el Ls (limite superior)<br>
+                [20 - 30] 
+                
+                Se suman 20 + 30 y el resultado se divide en este caso con 2, porque es el nuemero total de valores.
+            </div>
+
+<!--Fi O FRECUENCIA ACUMULADA-->
+<br>
+<div class="frecuenciaabsoluta">
+    <h3>Frecuencia absoluta</h3>
+    <span>Simbolo : fi o f</span>
+<br>
+    Vienen en la tabla, y son las veces que se repiten los valores, la frecuencia con que se repiten.
+    <br>
+    Estos se suman para luego hacer otros calculos
+    <br>20<br>
+        25<br>
+        40<br>
+        30<br>
+        Resultado = 115
+</div>
+<br>
+<div class="frecuenciaacumulada">
+    <h3>Frecuencia acumulada</h3>
+    <span>Simbolo : Fi o F</span>
+<br>
+    Son la suma de todas las frecuencias absolutas
+    <br>
+    Por ejemplo: 
+    <br>
+    <img style="max-width: 250px;" src="../images/demostracionFrecuenciaacumulativa.png" alt="">
+    se van sumando las frecuencias absolutas: 
+    <br>12 + 8 = 20<br>
+    12 + 8 + 5 = 25<br>
+    12 + 8 + 5 + 3 = 28<br>
+    asi sucesivamente..
+
+</div>
+
+<br>    
+<div class="marcadeclaseporfrecuenciaabs">
+    <h3>Frecuencia absoluta X marca de clase</h3>
+    <span>Simbolo : xi x fi  o Mc x f</span>
+<br>
+    Se multiplica la frecuencia absoluta (fi) por la marca de clase (xi),y se suman todos los valores.
+
+    Por ejemplo: 
+    <div class="tbl" style="width:100%; display: grid;grid-template-columns: repeat(3,1fr);">
+        <div style="border: 1px solid black;padding: 5px;font-weight: 900;">Marca de clase (xi)</div>
+        <div style="border: 1px solid black;padding: 5px;font-weight: 900;">Frecuencia absoluta(fi)</div>
+        <div style="border: 1px solid black;padding: 5px;font-weight: 900;">xi x fi</div>
+
+        <div style="border: 1px solid black;padding: 5px;">20</div>
+        <div style="border: 1px solid black;padding: 5px;">30</div>
+        <div style="border: 1px solid black;padding: 5px;">600</div>
+        
+        <div style="border: 1px solid black;padding: 5px;">25</div>
+        <div style="border: 1px solid black;padding: 5px;">32</div>
+        <div style="border: 1px solid black;padding: 5px;">640</div>
+    </div>
+    20 x 30 = 600<br>
+    ya luego 600 + 640 = 1240
+
+</div>
+
+
+<br>
+
+
+        </div>
+    </div>
+</body>
+</html>
